@@ -1,6 +1,5 @@
 <html>
 <head>
-	<title><?php echo $pageTitle;?></title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" type="text/css">
