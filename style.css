@@ -28,26 +28,32 @@ body {
 	background:url(img/sparklogo.svg) 17px 14px no-repeat;padding: 14px 0;
 }
 
+.wrapper {
+	width: 90%;
+	height: 500px;
+	margin-top: 70px;
+}
+
 .jumbotron{
-	margin-left: 30px;
+	float: left;
+	margin-left: 7%;
+	margin right: 7%;
 	width: 900px;
 	padding: 10px;
 }
 
-form {
-    margin-left: 0;
+/*form {
+  margin-left: 20px;
+  float: left;
 }
-form {width: 375px; margin: 34px auto;}
+form {width: 375px;}
 form tr {
   border: 1px solid #CCC;
   background: #f4f3f2;
 }
-form table {width: 375px; margin-bottom: 16px;}
-form th {
-  width: 85px;
-  border-right: 1px solid #CCC;
-  vertical-align: middle;
-  padding: 8px;
+form table {
+	width: 375px; 
+	margin-bottom: 16px;
 }
 form td {
   padding: 15px 15px;
@@ -67,10 +73,100 @@ form input[type="submit"] {
   border-radius: 2px;    
   font-size: 14px;
   text-transform: uppercase;
+}*/
+
+form {
+		float: left;
+    margin-left:50px;
+    /*margin-right:auto;*/
+    max-width: 500px;
+    height: 500px;
+    background: #FFF;
+    padding: 30px 30px 20px 30px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+form h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 0px 0px 10px 0;
+    display: block;
+    border-bottom: 1px solid #F5F5F5;
+    margin: -10px -30px 10px -30px;
+    color: #969696;
+    text-align: center;
+}
+
+form table {
+    display: block;
+    margin: 50px 0px 5px;
+}
+
+form td {
+	width: 100%;
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+    color: #555;
+    width: 90%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 33px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+form textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+}
+form input[type="submit"]  {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+    background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+    background-color:#ff5bb0;
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    border:1px solid #ee1eb5;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 40px;
+    line-height: 30px;
+    width: 90%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #c70067;
+    margin-left: 20px;
+}
+form input[type="submit"]:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+    background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+    background-color:#ef027d;
+}
+form input[type="submit"]:active {
+    position:relative;
+    top:1px;
 }
 
 .footer {
-	position: relative;
+	
 	background-color: #2F2F2F;
 	height: 500px;
 	color: white;
