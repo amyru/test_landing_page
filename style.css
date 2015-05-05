@@ -1,0 +1,78 @@
+body {
+	font-size: 20px;
+}
+
+.navbar-default{
+	background-color: transparent;
+}
+
+.navbar {
+	height: 80px;
+	background: transparent;
+	border: none;
+}
+
+.nav>li>a {
+	padding: 20px;
+}
+
+.navbar-brand {
+	float: left; 
+	margin: 0 0 0 12px;
+	margin-left: 50px; 
+	font: 0/0 serif; 
+	text-shadow: none; 
+	color: transparent; 
+	width:122px;
+	height:77px;
+	background:url(img/sparklogo.svg) 17px 14px no-repeat;padding: 14px 0;
+}
+
+.jumbotron{
+	margin-left: 30px;
+	width: 900px;
+	padding: 10px;
+}
+
+form {
+    margin-left: 0;
+}
+form {width: 375px; margin: 34px auto;}
+form tr {
+  border: 1px solid #CCC;
+  background: #f4f3f2;
+}
+form table {width: 375px; margin-bottom: 16px;}
+form th {
+  width: 85px;
+  border-right: 1px solid #CCC;
+  vertical-align: middle;
+  padding: 8px;
+}
+form td {
+  padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+  width: 100%;
+}
+form input[type="submit"] {
+  width: 375px;
+  text-align: center;
+  border: 1px solid #8e8e46;
+  background: #9c9f4e;
+  color: #FFF;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;    
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer {
+	position: relative;
+	background-color: #2F2F2F;
+	height: 500px;
+	color: white;
+	padding: 50px`;
+}
