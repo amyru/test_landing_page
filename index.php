@@ -86,7 +86,7 @@
 
 	?>
 
-	<form method="post" action="contact.php">
+	<form method="post" action="index.php">
 		<h1>Contact us for a Consultation.</h1>
 		<table>
 			<tr>
