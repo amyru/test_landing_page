@@ -42,21 +42,39 @@
 			$email_body = $email_body . "Email: " . $email . "<br>";
 			$email_body = $email_body . "Message: " . $message;
 
-			// Set PHPMailer to use the sendmail transport
-			$mail->isSendmail();
-			//Set who the message is to be sent from
-			$mail->setFrom($email, $name);
+			// // Set PHPMailer to use the sendmail transport
+			// $mail->isSendmail();
+			// //Set who the message is to be sent from
+			// $mail->setFrom($email, $name);
 			
-			//Set who the message is to be sent to
-			$mail->addAddress('amy.rudolph@live.co.uk', 'Amy Rudolph');
-			//Set the subject line
-			$mail->Subject = 'Contact form | '. $name;
-			//Read an HTML message body from an external file, convert referenced images to embedded,
-			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML($email_body);
+			// //Set who the message is to be sent to
+			// $mail->addAddress('amy.rudolph@live.co.uk', 'Amy Rudolph');
+			// //Set the subject line
+			// $mail->Subject = 'Contact form | '. $name;
+			// //Read an HTML message body from an external file, convert referenced images to embedded,
+			// //convert HTML into a basic plain-text alternative body
+			// $mail->msgHTML($email_body);
 			
-			//Attach an image file
-			// $mail->addAttachment('images/phpmailer_mini.png');
+			// //Attach an image file
+			// // $mail->addAttachment('images/phpmailer_mini.png');
+
+			// //send the message, check for errors
+			// if (!$mail->send()) {
+			//     echo "Mailer Error: " . $mail->ErrorInfo;
+			// } else {
+			//     echo "Message sent!";
+			// }
+
+			$mail->IsSMTP();
+			$mail->SMTPAuth = true;
+			$mail->Host = "mailtrap.io";
+			$mail->Port = 25;
+			$mail->Username = "amy.rudolph@live.co.uk";
+			$mail->Password = "elizabeth1987";
+			$mail->SetFrom($email, $name);
+			$mail->Subject = "A Transactional Email From Web App |" . $name;
+			$mail->MsgHTML($email_body);
+			$mail->AddAddress("amy.rudolph@live.co.uk", "amy");
 
 			//send the message, check for errors
 			if (!$mail->send()) {
@@ -64,7 +82,6 @@
 			} else {
 			    echo "Message sent!";
 			}
-
 		}
 
 	?>
