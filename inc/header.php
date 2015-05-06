@@ -2,7 +2,7 @@
 <head>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="style.css.scss" type="text/css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -13,10 +13,8 @@
 	      </button>
 	      <a class="navbar-brand" href="./"></a>
 	    </div>
-
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	     
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#">Link</a></li>
 	      </ul>

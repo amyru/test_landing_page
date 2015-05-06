@@ -1,9 +1,11 @@
 body {
 	font-size: 20px;
+  background: url(img/img.png) no-repeat 0 0;
+  background-size: 1200px;
 }
 
 .navbar-default{
-	background-color: transparent;
+	background: transparent;
 }
 
 .navbar {
@@ -17,21 +19,45 @@ body {
 }
 
 .navbar-brand {
-	float: left; 
+	float: left;
 	margin: 0 0 0 12px;
-	margin-left: 50px; 
+	margin-left: 20px !important;
+  margin-top: 10px !important; 
 	font: 0/0 serif; 
 	text-shadow: none; 
 	color: transparent; 
 	width:122px;
-	height:77px;
-	background:url(img/sparklogo.svg) 17px 14px no-repeat;padding: 14px 0;
+	height:170px;
+	background:url(Aqua-header-logo.png)no-repeat;padding: 14px 0;
+  background-size: 100%;
 }
 
+// .parallax-background {
+//   background-color: #e74c3c;
+//   height: 620px;
+//   background-repeat: no-repeat;
+//   -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//   background-size: cover;
+//   position: fixed;
+//   width: 100%;
+//   z-index: -1;
+// }
+
+// .parallax-content {
+//   max-width: 100%;
+//   position: relative;
+//   top: 400px;
+//   /*padding: 50px;*/
+//   /*font-size: 20px;*/
+//   /*background-color: #fff;*/
+// }
+
 .wrapper {
+  margin-top: 50px;
 	width: 100%;
-  height: 1000px;
-  margin-top: 70px;
+  height: 900px;
 }
 
 .jumbotron{
@@ -42,45 +68,13 @@ body {
 	padding: 10px;
 }
 
-/*form {
-  margin-left: 20px;
-  float: left;
-}
-form {width: 375px;}
-form tr {
-  border: 1px solid #CCC;
-  background: #f4f3f2;
-}
-form table {
-	width: 375px; 
-	margin-bottom: 16px;
-}
-form td {
-  padding: 15px 15px;
-}
-form td select,
-form td input,
-form td textarea {
-  width: 100%;
-}
-form input[type="submit"] {
-  width: 375px;
-  text-align: center;
-  border: 1px solid #8e8e46;
-  background: #9c9f4e;
-  color: #FFF;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;    
-  font-size: 14px;
-  text-transform: uppercase;
-}*/
-
 form {
-	float: left;
-  margin-left:50px;
+	float: right;
+  margin-right: 130px;
+  margin-top: 120px;
   max-width: 500px;
   height: 500px;
-  background: #FFF;
+  background: #D6EFFF;
   padding: 30px 30px 20px 30px;
   box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
   -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
@@ -90,12 +84,12 @@ form {
   -webkit-border-radius: 10px;
 }
 form h1 {
-  font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font: 24px Helvetica, sans-serif;
   padding: 0px 0px 10px 0;
   display: block;
   border-bottom: 1px solid #F5F5F5;
   margin: -10px -30px 10px -30px;
-  color: #969696;
+  color: #3333CC;
   text-align: center;
 }
 
@@ -164,10 +158,91 @@ form input[type="submit"]:active {
   top:1px;
 }
 
-.footer {
-	
-	background-color: #2F2F2F;
-	height: 500px;
-	color: white;
-	padding: 50px`;
+.panel {
+  float: right;
+  width: 400px;
+  height: 100px;
+  background-color: #D6EFFF;
+  border: 1px solid #ADEBFF !important;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  font: Helvetica;
+  color: #3333CC;
+  margin-right: 150px;
+  margin-top: 15%;
 }
+
+.section {
+  background-color: #F0F6FF;
+  padding: 50px;
+}
+
+.section h1 {
+  font: 70px 'Baskerville', sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  color:#3333CC;
+}
+
+
+.thumbnail {
+  max-width: 400px;
+  text-align: center;
+  border: none;
+  margin-left: 70px;
+  background-color: #F0F6FF;
+  color: #3333CC;
+}
+
+.thumbnail img {
+  width: 300px;
+  height: 300px;
+  align-content: center;
+}
+
+.thumbnail h3 {
+  color: #3333CC;
+}
+
+.thumbnail p {
+  color: #3333CC;
+}
+
+.footer {
+	background: url(natural-skincare.jpg) no-repeat;
+  background-size: 100% 100%;
+	color: white;
+	padding: 50px;
+}
+
+.footer .wrapper {
+  margin-top: 0;
+  height: 700px;
+}
+
+.footer ul {
+  list-style: none;
+  float: right;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.twitter{
+  width: 68px;
+  height: 68px;
+}
+
+.facebook {
+  width: 60px;
+  height: 60px;
+}
+
+ .instagram{
+  width: 59px;
+  height: 59px;
+}
+
+
