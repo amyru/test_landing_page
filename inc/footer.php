@@ -1,4 +1,4 @@
-	<div class="footer">
+	<div class="footer" id="contact">
 		<div class="wrapper">
 			<div class="row">
 				<ul>

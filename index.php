@@ -112,7 +112,7 @@
 </div>
 </div>
 <div class="paralax-content">
-<div class="section">
+<div class="section" id="section">
 	<h1>Lorem ipsum dolor sit amet</h1>
 	<div class="row">
 	  <div class="col-sm-6 col-md-4">
@@ -144,4 +144,9 @@
 	  </div>
 	</div>
 </div>
+	<div class="section2" id="quote">
+		<div class="col-sm-6 col-md-4">
+			<p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean finibus efficitur metus sed dictum. Sed enim sem, aliquam a est at, luctus pellentesque augue.&rdquo;</p>
+		</div>
+	</div>
 <?php include("inc/footer.php"); ?>

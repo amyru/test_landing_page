@@ -1,6 +1,6 @@
 body {
 	font-size: 20px;
-  background: url(img/img.png) no-repeat -10px 50px;
+  background: url(img/img.png) no-repeat 10% 7%;
   background-size: 900px;
 }
 
@@ -22,8 +22,7 @@ body {
 	float: left;
 	margin: 0 0 0 12px;
 	margin-left: 20px !important;
-  margin-top: 10px !important; 
-	font: 0/0 serif; 
+  margin-top: 10px !important;  
 	text-shadow: none; 
 	color: transparent; 
 	width:122px;
@@ -57,7 +56,7 @@ body {
 .wrapper {
   margin-top: 50px;
 	width: 100%;
-  height: 900px;
+  height: 1000px;
 }
 
 .jumbotron{
@@ -70,8 +69,8 @@ body {
 
 form {
 	float: right;
-  margin-right: 130px;
-  margin-top: 80px;
+  margin-right: 10%;
+  margin-top: 10%;
   max-width: 500px;
   height: 500px;
   background: #D6EFFF;
@@ -209,8 +208,21 @@ form input[type="submit"]:active {
   color: #3333CC;
 }
 
+.section2 {
+  height: 500px;
+  background-color: #EBFFF5;
+  padding-left: 40%;
+  padding-top: 100px;
+}
+
+.section2 p {
+  font: 30px Georgia;
+  width: 400px;
+  color: #003D5C;
+}
+
 .footer {
-	background: url(natural-skincare.jpg) no-repeat;
+	background: url(natural-skincare.jpg) no-repeat;opacity: 0.5;
   background-size: 100% 99%;
 	color: white;
 	padding: 50px;

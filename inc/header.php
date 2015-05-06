@@ -16,7 +16,9 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
+	        <li><a class="page-scroll" href="#section">About</a></li>
+	        <li><a class="page-scroll" href="#quote">Testimonial</a></li>
+	        <li><a class="page-scroll" href="#contact">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
